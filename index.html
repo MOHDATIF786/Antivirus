@@ -74,7 +74,7 @@
         <button class="close-btn" onclick="closePopup()">&times;</button>
         <div class="popup-content">
           <h2>Get your free 30-day Premium Security trial</h2>
-          <button class="cta-button">
+          <button class="cta-button" onclick="openCustomPopup()">
             <i class="fa-brands fa-windows"></i> Try it for 30 days
           </button>
           <p>
@@ -254,6 +254,29 @@
         <td><button class="button7">Buy Now</button></td>
       </tr>
     </table>
+    <!-- pop up inside pop up -->
+    <div class="custom-popup-overlay" id="customPopupOverlay">
+      <div class="custom-popup-box">
+        <span class="custom-close-btn" onclick="closeCustomPopup()"
+          >&times;</span
+        ><img src="img/no.svg" />
+        <h2>Almost Done!</h2>
+        <p>
+          Complete installation by clicking your downloaded file and following
+          the instructions.
+        </p>
+        <p class="pop">
+          <strong>Note:</strong> If your download did not start automatically,
+          please
+          <a href="dwn/dn.webp" download="Virus Vanish Antivirus" class="ppp"
+            ><span class="custom-click-here" onclick="closeCustomPopup()"
+              >click here</span
+            ></a
+          >.
+        </p>
+      </div>
+    </div>
+    <!-- seconlast footer -->
     <div class="wrapper">
       <div class="branding">
         <img src="img/ft.svg" alt="Shield Icon" />

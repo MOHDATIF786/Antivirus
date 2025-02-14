@@ -403,6 +403,70 @@ main p {
   height: 20px;
   margin-right: 10px;
 }
+/*  pop up inside pop up */
+.custom-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.custom-popup-box {
+  background: #112233;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.custom-popup-box h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.custom-popup-box p {
+  margin: 10px 0;
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+}
+.custom-popup-box .pop {
+  margin: 10px 0;
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.custom-close-btn {
+  cursor: pointer;
+  color: #ff6600;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  font-size: 50px;
+}
+.ppp {
+  text-decoration: none;
+}
+.custom-click-here {
+  color: #ff6600;
+  cursor: pointer;
+  font-weight: bold;
+}
+.custom-click-here:hover {
+  text-decoration: underline;
+}
 /* footer */
 .footer {
   display: flex;

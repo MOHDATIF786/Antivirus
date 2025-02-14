@@ -14,3 +14,10 @@ document.getElementById("compareButton").addEventListener("click", function () {
     .getElementById("compareSection")
     .scrollIntoView({ behavior: "smooth" });
 });
+// pop up inside pop up
+function openCustomPopup() {
+  document.getElementById("customPopupOverlay").style.display = "flex";
+}
+function closeCustomPopup() {
+  document.getElementById("customPopupOverlay").style.display = "none";
+}
